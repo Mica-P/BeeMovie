@@ -22,7 +22,7 @@
 <body>
 
 <?php
-require_once 'navbar.php';
+require_once 'navbar.blade.php';
 ?>
 
 <!-- Video Banner -->
@@ -305,7 +305,7 @@ require_once 'navbar.php';
 <!--    </div>-->
 <!--</section>-->
 <?php
-require_once 'footer.php';
+require_once 'footer.blade.php';
 ?>
 
 

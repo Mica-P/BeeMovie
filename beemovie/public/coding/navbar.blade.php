@@ -58,33 +58,33 @@
                     <div class="collapse navbar-collapse" id="tmMainNav">
                         <ul class="navbar-nav mx-auto tm-navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link external" href="homepage.php">Homepages</a>
+                                <a class="nav-link external" href="homepage.blade.php">Homepages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="basiscursus.php">Basiscursus</a>
+                                <a class="nav-link external" href="basiscursus.blade.php">Basiscursus</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link external" href="https://www.bijenhouders.nl/cursussen/voortgezet-imkeren/fd39WNRYnK#info">voortgezet imkeren</a>
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <button><a class="nav-link external" href="informatie.php">informatie</a></button>
+                                    <button><a class="nav-link external" href="informatie.blade.php">informatie</a></button>
                                     <div class="dropdown-content">
-                                        <a class="nav-link external" href="imkerbenodigheden.php">imkerbenodigheden</a>
-                                        <a class="nav-link external" href="lidmaatschap.php">lidmaatschap</a>
-                                        <a class="nav-link external" href="bijenzwerm-hommelnest.php">bijenzwerm/hommelnest?</a>
-                                        <a class="nav-link external" href="alles-over-bijen.php">Alles over bijen</a>
+                                        <a class="nav-link external" href="imkerbenodigheden.blade.php">imkerbenodigheden</a>
+                                        <a class="nav-link external" href="lidmaatschap.blade.php">lidmaatschap</a>
+                                        <a class="nav-link external" href="bijenzwerm-hommelnest.blade.php">bijenzwerm/hommelnest?</a>
+                                        <a class="nav-link external" href=".alles-over-bijen.blade.php">Alles over bijen</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="links.php">links</a>
+                                <a class="nav-link external" href="links.blade.php">links</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="contact.php">contact</a>
+                                <a class="nav-link external" href="contact.blade.php">contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="artikelen.php">artikelen</a>
+                                <a class="nav-link external" href="artikelen.blade.php">artikelen</a>
                             </li>
                         </ul>
                     </div>
@@ -93,7 +93,7 @@
         </div>
     </div>
 </div>
-
+x
 <script src="js/jquery-1.9.1.min.js"></script>
 <!-- Single Page Nav plugin works with this version of jQuery -->
 <script src="js/jquery.singlePageNav.min.js"></script>

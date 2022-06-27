@@ -22,11 +22,11 @@
 <body>
 
 <?php
-require_once 'navbar.php';
+require_once 'navbar.blade.php';
 ?>
 <br><br><br><br><br>
 
-<h1>Artikelen</h1>
+<h1>Links</h1>
 
 
 
@@ -81,7 +81,7 @@ require_once 'navbar.php';
 
 
 <?php
-require_once 'footer.php';
+require_once 'footer.blade.php';
 ?>
 
 

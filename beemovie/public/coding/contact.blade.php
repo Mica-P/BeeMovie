@@ -22,7 +22,7 @@
 <body>
 
 <?php
-require_once 'navbar.php';
+require_once 'navbar.blade.php';
 ?>
 <br><br><br><br><br>
 
@@ -128,7 +128,7 @@ require_once 'navbar.php';
 
 
 <?php
-require_once 'footer.php';
+require_once 'footer.blade.php';
 ?>
 
 
