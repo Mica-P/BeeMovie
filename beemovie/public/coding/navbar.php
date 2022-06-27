@@ -1,5 +1,35 @@
 <!-- navbar -->
-
+<style>
+    .dropdown {
+        display: block;
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        width: 100%;
+        text-decoration: none;
+    }
+    .dropdown-content a:hover {
+        width: 100%;
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+    .dropdown-content a:active {
+        color: #000000;
+        background-color: #FFFFFF;
+    }
+</style>
 <!-- page header -->
 <div class="container" id="home">
     <div class="col-12 text-center">
@@ -37,7 +67,15 @@
                                 <a class="nav-link external" href="https://www.bijenhouders.nl/cursussen/voortgezet-imkeren/fd39WNRYnK#info">voortgezet imkeren</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="informatie.php">informatie</a>
+                                <div class="dropdown">
+                                    <button><a class="nav-link external" href="informatie.php">informatie</a></button>
+                                    <div class="dropdown-content">
+                                        <a class="nav-link external" href="imkerbenodigheden.php">imkerbenodigheden</a>
+                                        <a class="nav-link external" href="lidmaatschap.php">lidmaatschap</a>
+                                        <a class="nav-link external" href="bijenzwerm-hommelnest.php">bijenzwerm/hommelnest?</a>
+                                        <a class="nav-link external" href="alles-over-bijen.php">Alles over bijen</a>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link external" href="links.php">links</a>

@@ -26,33 +26,26 @@ require_once 'navbar.php';
 ?>
 <br><br><br><br><br>
 
-<h1>Contact</h1>
+<h1>Imkerbenodigheden</h1>
 
 
-<section>
+<div class="main-container">
+
     <article>
-        <p>Het bestuur van de Imkervereniging Oegstgeest bestaat uit:</p>
-        <table>
-            <tr>
-                <th>Alma van der Wijgaard</th>
-                <th>voorzitter</th>
-            </tr>
-            <tr>
-                <td>Fred Schalker</td>
-                <td>secretaris</td>
-            </tr>
-            <tr>
-                <td>Karel Diephuis</td>
-                <td>penningmeester</td>
-            </tr>
-            <tr>
-                <td>Håvar Solheim</td>
-                <td>bestuur lid</td>
-            </tr>
-        </table>
-        <p>Voor vragen over de vereniging, of onze cursus, verstuur een mail naar onze <a href="">secretaris</a>.</p>
-        <p>Voor vragen over de website zelf, neem contact op met de <a href="">webmaster</a>.</p>
+
+        <header class="post-header"><h1 class="page-title">imkerbenodigheden</h1></header><div class="post-content">
+            <p>Voor imkerbenodigdheden in de regio Zuid-Holland bestaat Het “Bijenhuis”-depot van de Imkersvereniging Leiden e.o. </p>
+
+
+
+            <p><a href="https://www.imkervereniging-oegstgeest.nl/wp-content/uploads/2019/02/Flyer_depot_v3.pdf">bijlage</a></p>
+
+
+
+            <p><br></p>
+        </div>
     </article>
+
     <div class="widget-title"><h4>Recente berichten</h4></div>
     <ul>
         <li>
@@ -75,8 +68,10 @@ require_once 'navbar.php';
         </li>
     </ul>
 
+    </div>
 
-</section>
+
+</div>
 
 
 
@@ -134,3 +129,4 @@ require_once 'footer.php';
 
 </body>
 </html>
+
