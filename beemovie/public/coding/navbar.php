@@ -64,27 +64,32 @@
                                 <a class="nav-link external" href="basiscursus.php">Basiscursus</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="https://www.bijenhouders.nl/cursussen/voortgezet-imkeren/fd39WNRYnK#info">voortgezet imkeren</a>
+                                <a class="nav-link external" href="https://www.bijenhouders.nl/cursussen/voortgezet-imkeren/fd39WNRYnK#info">Voortgezet Imkeren</a>
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <button><a class="nav-link external" href="informatie.php">informatie</a></button>
+                                    <a class="nav-link external" href="lidmaatschap.php">Informatie</a>
                                     <div class="dropdown-content">
-                                        <a class="nav-link external" href="imkerbenodigheden.php">imkerbenodigheden</a>
-                                        <a class="nav-link external" href="lidmaatschap.php">lidmaatschap</a>
-                                        <a class="nav-link external" href="bijenzwerm-hommelnest.php">bijenzwerm/hommelnest?</a>
+                                        <a class="nav-link external" href="imkerbenodigheden.php">Imkerbenodigheden</a>
+                                        <a class="nav-link external" href="lidmaatschap.php">Lidmaatschap</a>
+                                        <a class="nav-link external" href="bijenzwerm-hommelnest.php">Bijenzwerm/hommelnest?</a>
                                         <a class="nav-link external" href="alles-over-bijen.php">Alles over bijen</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="links.php">links</a>
+                                <a class="nav-link external" href="links.php">Links</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="contact.php">contact</a>
+                                <a class="nav-link external" href="contact.php">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="artikelen.php">artikelen</a>
+                                <div class="dropdown">
+                                <a class="nav-link external" href="artikelen.php">Artikelen</a>
+                                <div class="dropdown-content">
+                                    <a class="nav-link external" href="verslagen.php">Verslagen</a>
+                                </div>
+                                </div>
                             </li>
                         </ul>
                     </div>

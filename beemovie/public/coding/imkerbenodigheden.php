@@ -26,14 +26,13 @@ require_once 'navbar.php';
 ?>
 <br><br><br><br><br>
 
-<h1>Imkerbenodigheden</h1>
 
 
 <div class="main-container">
 
     <article>
 
-        <header class="post-header"><h1 class="page-title">imkerbenodigheden</h1></header><div class="post-content">
+        <header class="post-header"><h1 class="page-title">Imkerbenodigheden</h1></header><div class="post-content">
             <p>Voor imkerbenodigdheden in de regio Zuid-Holland bestaat Het “Bijenhuis”-depot van de Imkersvereniging Leiden e.o. </p>
 
 
@@ -68,7 +67,7 @@ require_once 'navbar.php';
         </li>
     </ul>
 
-    </div>
+</div>
 
 
 </div>

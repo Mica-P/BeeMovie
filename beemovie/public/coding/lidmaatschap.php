@@ -50,7 +50,7 @@ require_once 'navbar.php';
     </article>
 
 
-</div><!-- .main-container -->
+</div>
 
 
 
