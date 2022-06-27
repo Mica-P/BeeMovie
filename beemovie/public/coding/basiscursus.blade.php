@@ -22,7 +22,7 @@
 <body>
 
 <?php
-require_once 'navbar.php';
+require_once 'navbar.blade.php';
 ?>
 <br><br><br><br><br>
 
@@ -86,7 +86,7 @@ require_once 'navbar.php';
                     <div class="wpcf7-response-output" aria-hidden="true"></div></form></div></p>
             <p>Na inschrijving krijgt u een mail met gegevens hoe u kunt betalen, plus de locaties van de cursus.<br />
                 De inschrijving is definitief na betaling van het cursusgeld.</p>
-            <p>Mocht u vragen hebben over de cursus, neem dan <a href="contact.php">contact</a> op.</p>
+            <p>Mocht u vragen hebben over de cursus, neem dan <a href="contact.blade.php">contact</a> op.</p>
         </div>
     </article>
 
@@ -146,7 +146,7 @@ require_once 'navbar.php';
 
 
 <?php
-require_once 'footer.php';
+require_once 'footer.blade.php';
 ?>
 
 
