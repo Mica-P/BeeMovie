@@ -58,36 +58,36 @@
                     <div class="collapse navbar-collapse" id="tmMainNav">
                         <ul class="navbar-nav mx-auto tm-navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link external" href="homepage.php">Homepages</a>
+                                <a class="nav-link external" href="homepage.blade.php">Homepages</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="basiscursus.php">Basiscursus</a>
+                                <a class="nav-link external" href="basiscursus.blade.php">Basiscursus</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link external" href="https://www.bijenhouders.nl/cursussen/voortgezet-imkeren/fd39WNRYnK#info">Voortgezet Imkeren</a>
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                    <a class="nav-link external" href="lidmaatschap.php">Informatie</a>
+                                    <a class="nav-link external" href="lidmaatschap.blade.php">Informatie</a>
                                     <div class="dropdown-content">
-                                        <a class="nav-link external" href="imkerbenodigheden.php">Imkerbenodigheden</a>
-                                        <a class="nav-link external" href="lidmaatschap.php">Lidmaatschap</a>
-                                        <a class="nav-link external" href="bijenzwerm-hommelnest.php">Bijenzwerm/hommelnest?</a>
-                                        <a class="nav-link external" href="alles-over-bijen.php">Alles over bijen</a>
+                                        <a class="nav-link external" href="imkerbenodigheden.blade.php">Imkerbenodigheden</a>
+                                        <a class="nav-link external" href="lidmaatschap.blade.php">Lidmaatschap</a>
+                                        <a class="nav-link external" href="bijenzwerm-hommelnest.blade.php">Bijenzwerm/hommelnest?</a>
+                                        <a class="nav-link external" href=".alles-over-bijen.blade.php">Alles over bijen</a>
                                     </div>
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="links.php">Links</a>
+                                <a class="nav-link external" href="links.blade.php">Links</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link external" href="contact.php">Contact</a>
+                                <a class="nav-link external" href="contact.blade.php">Contact</a>
                             </li>
                             <li class="nav-item">
                                 <div class="dropdown">
-                                <a class="nav-link external" href="artikelen.php">Artikelen</a>
+                                <a class="nav-link external" href="artikelen.blade.php">Artikelen</a>
                                 <div class="dropdown-content">
-                                    <a class="nav-link external" href="verslagen.php">Verslagen</a>
+                                    <a class="nav-link external" href="verslagen.blade.php">Verslagen</a>
                                 </div>
                                 </div>
                             </li>
